@@ -1,0 +1,37 @@
+# Project
+*.log
+*.cache
+*.db
+*.rdb
+*.lock
+!delete.me
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.lock
+*.vscode
+static/
+conf.d/
+ve/
+media/*
+mongo_data/*
+playground/*
+
+
+# OSX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+nbproject/
+.vagrant
+.project
+.pydevproject

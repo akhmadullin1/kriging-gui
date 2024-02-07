@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kriging-gui"
+version = "0.1.0"
+description = "GUI for working with interpolation kriging methods"
+authors = ["Askar akhmadullin <akhmadullin.a@internet.ru>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "3.12.1"
+pyside6 = "^6.6.1"
+matplotlib = "^3.8.2"
+pydantic = "^2.5.3"
+pydantic-settings = "^2.1.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
